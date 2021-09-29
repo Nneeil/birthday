@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animation.css">
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+        <title>
+            Homepage
+        </title>
+    </head>
+    <body>
+        <section class="header">
+            <div class="container">
+            <div class="balloon">
+                <div><span>☺</span>
+                </div>
+                <div><span>B</span>
+                </div>
+                <div><span>D</span>
+                </div>
+                <div><span>A</span>
+                </div>
+                <div><span>Y</span>
+                </div>
+                <div><span>!</span>
+                </div>
+            </div>
+             <p class="logo-1">
+      Jessica Nelson
+    </p>
+             <h1 class="quote">"I do what I want."</h1>
+        </div>
+        <img src="rick.png" alt="rick" width="380" height="380">
+        <div class="box">
+            No, you fucking don't, ho!
+        </div>
+        </section>
+        <section class="header2">
+          <h1 class="dr">I had to work my ass off to get these...</h1>
+            <div class="crossfade">
+                 <figure></figure>
+                 <figure></figure>
+                 <figure></figure>
+                 <figure></figure>
+            </div>
+            
+        </section>
+        
+        <section class="header3">
+            <h1 class="dramatic">Who's more dramatic? :)</h1>
+                <div class="btn-container">
+                <button class="button" id="btn1" type="button" style="margin-right: 40px;">FABIO</button>
+                <button class="button" id="btn2" type="button">JESSICA</button>
+                <div id="myModal" class="modal">
+                
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="close-btn-container">
+    <p><b>No u are infinity!</b></p>
+    <button class="close" id="close-btn" type="button">Yes, I am...</button>
+    <button class="ran-btn" type="button">No u...</button>
+    </div>
+  </div>
+    <div class="imp-container">
+      <div class="imp"></div>
+    </div>
+    <div class="tess-container">
+      <div class="tess"></div>
+    </div>
+</div>
+                </div>
+                
+                <!-- Modal content #2-->
+                <div id="myModal2" class="modal2">
+                <div class="modal-content2">
+                <div class="close-btn-container2">
+                <p><b>Yes u are infinity!</b></p>
+                <button class="close2" id="close-btn2" type="button">Psh, Whatever...</button>
+                
+             </div>
+              
+    </div>
+                <div class="bperson-container">
+                <div class="bperson">
+              </div>
+                </div>
+                 <div class="risitas-container">
+                  <div class="risitas"></div>
+          </div>
+                </div>
+               
+            
+                <div class="message">
+                  <div class="icon">
+                  </div>
+                  <p class="bye">It took me two/three days to finish this shit, yet I don't know what to say at the end. Hah, I wish I was <i>allowed</i> to buy you something, but nooo... you ho don't want it. As usual, you're difficult. I'm sad,<i>sniff sniff</i>. I bet you're going to be mad cuz I've spent so much time doing this instead of writing. Meh, whatever. Anywho, <b>happy birthday</b>, Jessica. Hope you like it!</p>
+                  <div class="heart"></div>
+                </div>
+        </section>
+        
+        
+        <script>
+         
+                // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("btn1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+ 
+</script>
+        <script>
+          // Get the modal
+var modal2 = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn2 = document.getElementById("btn2");
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close2")[0];
+
+// When the user clicks the button, open the modal 
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+        </script>
+        
+    </body>
+</html>
